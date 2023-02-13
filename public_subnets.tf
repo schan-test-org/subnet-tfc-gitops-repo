@@ -5,7 +5,6 @@ module "public_subnet" {
   project = var.project
   env     = var.env
   region  = var.aws_region
-
   vpc_id = var.vpc_id
   igw_id = var.igw_id
 
